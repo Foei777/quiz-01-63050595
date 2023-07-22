@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(16, 17, 20);
+    font-family: Lucida, sans-serif;
+  }
+  
+  .banner {
+    height: 600px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1577190651915-bf62d54d5b36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: top center top;
+    display: flex;
+    justify-content: center;
+  }
+  .banner-form {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner-form > p2 {
+    font-size: medium;
+    color: rgba(14, 0, 212, 0.438);
+    text-align: right;
+  }
+  
+  .banner-form > h1 {
+    margin: 15px;
+  }
+  
+  .banner-form > button {
+    background-color: rgb(18, 70, 180);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .bu:hover {
+    background-color: rgb(18, 70, 180);
+    cursor: pointer;
+    border: none;
+  }
+  .p {
+    font-size: small;
+    background-color: rgba(44, 41, 41, 0.39);
+    height: 45px;
+    width: 110px;
+    border-radius: 25px;
+    position: relative;
+    left: 360px;
+    background-size: cover;
+  }
+  .dialog {
+    height: 450px;
+    width: 800px;
+    color: white;
+    background-color: rgb(19, 22, 27);
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+  }
+  .h {
+    color: rgba(132, 143, 160, 0.671);
+  }
+  
+  .dialog > h2 {
+    font-size: 180%;
+  }
+  
+  .dialog > h1 {
+    font-size: 180%;
+  }
+  
+  
+  .m {
+    color: rgba(156, 159, 165, 0.671);
+  }
+  
+  .dialog2 {
+    text-align: center;
+    color: white;
+  }
+  
+
+  
+  .blockconer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+  }
+  .dialog2 > h1 {
+    font-size: 200%;
+  }
+  
+  .dialog2 > h2 {
+    font-size: 95%;
+    color: rgba(132, 143, 160, 0.671);
+  }
+  
+  .block-gard {
+    margin: auto;
+    width: 150px;
+    height: 300px;
+  }
+  .block-gard > img {
+    width: 150%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  .block-gard > p {
+    background-color: rgb(19, 22, 27);
+    position: relative;
+  
+    text-align: center;
+    position: static;
+    color: rgba(132, 143, 160, 0.671);
+    width: 150%;
+    height: 140px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .block-gard > p2 {
+    position: relative;
+  
+    left: 35px;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  
